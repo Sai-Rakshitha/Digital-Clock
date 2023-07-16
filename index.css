@@ -1,0 +1,57 @@
+.bc{
+    background:url("natureimg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:650px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+ 
+}
+
+h2{
+    color:rgb(20, 11, 47);
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.main{
+    display:flex;
+    color:black;
+}
+.main div{
+    margin:5px;
+    position: relative;
+}
+.main span{
+    width:100px;
+    height:70px;
+    background-color: rgb(14, 17, 42);
+    opacity: 0.7;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-size:cover;
+    color:white;
+    font-weight: bolder;
+}
+
+.main .text{
+    color:aliceblue;
+    height: 20px;
+    font-size:10px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background:rgb(30, 49, 72);
+}
+.main #ampm{
+    bottom:0;
+    position: absolute;
+    width:50px;
+    height:40px;
+    font-size: 25px;
+}
